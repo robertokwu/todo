@@ -1,0 +1,18 @@
+<script type="text/html" id="completedTasksTmpl">
+<div id="completedTasksWrapper" class="container col-m-9 col-8 col-l-6">
+	<div id="completedTasksHeader"></div>
+	<div id="completedTasksBody"></div>
+	</br>
+	</br>
+	<div id="completedTasksFooter">
+		<div id="completedTaskDelete" class="button border rounded" >Delete</div>
+		<div id="completedTaskCreate" class="button border rounded">New Task</div>
+	</div>
+</div>
+</script>
+<script type="text/html" id="completedTaskTmpl">
+<div id="<%= id %>"  class="completedTasks border bg">
+	<p class="completedTitle "><%= title %></p>
+	<p class="completedDescription "><%= description %></p>
+</div>
+</script>
